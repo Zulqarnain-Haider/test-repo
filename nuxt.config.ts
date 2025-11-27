@@ -119,6 +119,7 @@ toast: {
     compressPublicAssets: true, // Enable compression
     prerender: {
       crawlLinks: true,
+      failOnError: false,
       routes: ['/'] // Add important routes to prerender
     }
   },
