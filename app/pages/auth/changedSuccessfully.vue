@@ -18,7 +18,7 @@
       <!-- Icon -->
       <div class="flex mb-5">
         <img
-          src="/games/ResetPasswordSuccess.svg"
+          src="/games/ResetPasswordSuccess.png"
           alt="Success Icon"
                   />
       </div>

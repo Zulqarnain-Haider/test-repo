@@ -58,7 +58,7 @@
       }"
       >
             <NuxtImg 
-            densities="x1" quality="80" loading="lazy" :src="item.icon" alt="icon" class="object-contain" />
+            densities="x1" quality="80" loading="lazy" class="w-12 h-12 object-contain" :src="item.icon" alt="icon" />
           </div>
             <div>
               <h4 class="">{{ item.title }}</h4>
@@ -85,7 +85,7 @@
       }"
       >
             <NuxtImg 
-            densities="x1" quality="80" loading="lazy" :src="item.icon" alt="icon" class="object-contain" />
+            densities="x1" quality="80" loading="lazy" :src="item.icon" alt="icon" class="object-contain w-12 h-12" />
             </div>  
             <div>
               <h4 class="text-mainText">{{ item.title }}</h4>

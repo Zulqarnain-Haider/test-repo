@@ -5,7 +5,7 @@
     <!-- Left Image -->
     <div class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
       <NuxtImg
-        src="/games/ForgotPasswordLeft.png"
+        src="/games/ForgotPasswordLeft.jpeg"
         alt="OTP Verification Illustration"
         quality="80"
         format="webp"

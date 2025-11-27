@@ -30,7 +30,7 @@
             densities="x1"
             quality="80" loading="lazy"
               v-if="index + 1 < currentStep"
-              src="/games/ProgressCompleted.svg"
+              src="/games/ProgressCompleted.png"
               alt="Completed"
               class="w-7 h-7"
             />
@@ -38,7 +38,7 @@
             densities="x1"
             quality="80" loading="lazy"
               v-else-if="index + 1 === currentStep"
-              src="/games/ProgressCurrent.svg"
+              src="/games/ProgressCurrent.png"
               alt="Current"
               class="w-8 h-8 animate-pulse-icon"
             />
@@ -46,7 +46,7 @@
             densities="x1"
             quality="80" loading="lazy"
               v-else
-              src="/games/ProgressPending.svg"
+              src="/games/ProgressPending.png"
               alt="Pending"
               class="w-7 h-7 opacity-80"
             />

@@ -47,7 +47,7 @@
         'bg-purple-200/90': i === 3    // Total Spent
       }" 
       >
-        <NuxtImg :src="card.icon" alt="icon" densities="x1" quality="80" loading="lazy" class="z-[9999]" />
+        <NuxtImg :src="card.icon" alt="icon" densities="x1" quality="80" loading="lazy" class="z-[9999] w-12 h-12" />
           </div>
           <div class="flex flex-col items-start">
             <p class="text-xl font-semibold">{{ card.value }}</p>
@@ -366,10 +366,10 @@ const orders = ref([
 ])
 
 const statsCards = ref([
-  { icon: '/games/OrdersIcon1.svg', value: 24, label: 'Total Orders' },
-  { icon: '/games/OrdersImage2.png', value: 22, label: 'Completed' },
-  { icon: '/games/OrdersImage3.png', value: 2, label: 'Processing' },
-  { icon: '/games/OrdersIcon4.svg', value: '$1,247', label: 'Total Spent' }
+  { icon: '/games/OrdersIcon1.png', value: 24, label: 'Total Orders' },
+  { icon: '/games/OrdersIcon2.png', value: 22, label: 'Completed' },
+  { icon: '/games/OrdersIcon3.png', value: 2, label: 'Processing' },
+  { icon: '/games/OrdersIcon4.png', value: '$1,247', label: 'Total Spent' }
 ])
 
 const perPage = 5

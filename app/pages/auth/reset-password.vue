@@ -22,7 +22,7 @@
       <!-- Icon -->
       <div class="flex mb-4">
         <NuxtImg
-          src="/games/ForgotPasswordMainEmail.svg"
+          src="/games/ForgotPasswordMainEmail.png"
           alt="Main Icon"
           quality="80"
           densities="x1"

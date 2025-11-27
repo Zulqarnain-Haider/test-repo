@@ -6,7 +6,7 @@
     <div class="flex items-center gap-3 md:gap-4 xl:gap-6">
       <!-- Hamburger (mobile/iPad) -->
       <button class="block xl:hidden text-2xl" @click="isOpen = true">
-        <NuxtImg densities="x1" quality="80" loading="lazy" format="webp" src="/games/HameburgerMenu.png" alt="menu" class="w-6 h-6" />
+        <NuxtImg densities="x1" quality="80" loading="lazy" format="webp" src="/games/HameburgerMenu.log.svg" alt="menu" class="w-6 h-6" />
       </button>
 
       <!-- Logo -->

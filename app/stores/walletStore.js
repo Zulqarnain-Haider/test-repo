@@ -17,13 +17,13 @@ export const useWalletStore = defineStore('wallet', {
         id: 2,
         title: 'Daily Login',
         description: 'Get 25 points daily',
-        icon: '/wallet/EranPoint2.svg'
+        icon: '/wallet/EranPoint2.png'
       },
       { 
         id: 3,
         title: 'Refer Friends',
         description: 'Earn 500 points per referral',
-        icon: '/wallet/EranPoint3.svg'
+        icon: '/wallet/EranPoint3.png'
       },
     ],
 
@@ -34,7 +34,7 @@ export const useWalletStore = defineStore('wallet', {
         description: 'Starting from 500 points',
         action: 'Redeem',
         color: 'text-primary',
-        icon: '/wallet/UsePoint1.svg'
+        icon: '/wallet/UsePoint1.png'
       },
       {
         id: 2,
@@ -42,7 +42,7 @@ export const useWalletStore = defineStore('wallet', {
         description: '200 points per order',
         action: 'Redeem',
         color: 'text-primary',
-        icon: '/wallet/UsePoint2.svg'
+        icon: '/wallet/UsePoint2.png'
       },
       {
         id: 3,
@@ -50,7 +50,7 @@ export const useWalletStore = defineStore('wallet', {
         description: 'Premium items available',
         action: 'Browse',
         color: 'text-orange-400',
-        icon: '/wallet/UsePoint3.svg'
+        icon: '/wallet/UsePoint3.png'
       },
     ],
 
