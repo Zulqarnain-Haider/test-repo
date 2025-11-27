@@ -5,7 +5,7 @@
     <!--Left Image -->
     <div class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0 z-10">
       <img
-        src="/games/ForgotPasswordLeft.png"
+        src="/games/ForgotPasswordLeft.jpeg"
         alt="Password Changed Left"
         class="max-w-md w-full object-contain rounded-3xl"
       />
